@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
             if(valor2s.isEmpty())
                 val2.setError("ingresa el valor 2");
         }else{
-            int n1 = Integer.valueOf(valor1s);
-            int n2 = Integer.valueOf(valor2s);
+            int val1 = Integer.valueOf(valor1s);
+            int val2 = Integer.valueOf(valor2s);
             total = valor1i + valor2i;
             Toast.makeText(this, "La suma es " + total, Toast.LENGTH_SHORT).show();
         }
@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
             if(valor2s.isEmpty())
                 val2.setError("ingresa el valor 2");
         }else{
-            int n1 = Integer.valueOf(valor1s);
-            int n2 = Integer.valueOf(valor2s);
+            int val1 = Integer.valueOf(valor1s);
+            int val2 = Integer.valueOf(valor2s);
             total= valor1i-valor2i;
             Toast.makeText(this, "La resta es "+ total, Toast.LENGTH_SHORT).show();
         }
@@ -65,8 +65,8 @@ public class MainActivity extends AppCompatActivity {
             if(valor2s.isEmpty())
                 val2.setError("ingresa el valor 2");
         }else{
-            int n1 = Integer.valueOf(valor1s);
-            int n2 = Integer.valueOf(valor2s);
+            int val1 = Integer.valueOf(valor1s);
+            int val2 = Integer.valueOf(valor2s);
             total= valor1i*valor2i;
             Toast.makeText(this, "La multi es "+ total, Toast.LENGTH_SHORT).show();
         }
@@ -84,8 +84,8 @@ public class MainActivity extends AppCompatActivity {
             if(valor2s.isEmpty())
                 val2.setError("ingresa el valor 2");
         }else{
-            int n1 = Integer.valueOf(valor1s);
-            int n2 = Integer.valueOf(valor2s);
+            int val1 = Integer.valueOf(valor1s);
+            int val2 = Integer.valueOf(valor2s);
             total= valor1i/valor2i;
             Toast.makeText(this, "La divi es "+ total, Toast.LENGTH_SHORT).show();
         }
