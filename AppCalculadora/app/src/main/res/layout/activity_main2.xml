@@ -16,12 +16,16 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/editTextNumber2"
+            android:id="@+id/valortxt"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:autoText="false"
             android:background="#7C4DFF"
             android:ems="10"
-            android:inputType="number" />
+            android:gravity="right|center_vertical"
+            android:inputType="number"
+            android:scrollHorizontally="false"
+            android:textIsSelectable="false" />
 
         <LinearLayout
             android:layout_width="match_parent"
