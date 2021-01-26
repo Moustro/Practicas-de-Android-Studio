@@ -17,8 +17,7 @@ public class MainActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(getApplicationContext(), "Bienvenido", Toast.LENGTH_SHORT).show();
-                Intent cambio = new Intent(MainActivity.this,MainActivity2.class);
+                Intent cambio = new Intent(MainActivity.this,MainActivity6.class);
                 startActivity(cambio);
                 finish();
             }
